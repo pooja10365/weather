@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f6fe;
+    font-family: "Roboto", sans-serif;
+  }
+  .mainpage {
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  form {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .searchbar {
+    background: #f9f7fe;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 20px;
+    width: 75%;
+    border: solid #f9f7fe 1px;
+  }
+  .searchbutton {
+    color: white;
+    border-radius: 5px;
+    padding: 19px;
+    background: blueviolet;
+    border: solid blueviolet 1px;
+    font-size: 15px;
+  }
+  hr{
+    color:#f9f7fe;
+  }
+  main{
+    padding: 30px 0px 30px 0px;
+  }
+  .heading1{
+    font-size: 38px;
+    font-weight: 900;
+    margin: 0;
+  }
+  .days{
+    color: #a1a1a1;
+  }
+  .days strong{
+    color: #F65282;
+  }
+  .current-weather {
+    display: flex;
+    justify-content: space-between;
+  }
+  .current-temp {
+    display: flex;
+    margin-right: 20px;
+  }
+  .details{
+    display: block;
+    text-align: start;
+    margin-left: 20px;
+  }
+  .heading1{
+    padding: 0;
+    margin: 0px;
+  }
+.sun-icon{
+  font-size: 40px;
+  position: relative;
+  top: 20px;
+  margin-right:10px;
+}
+.temp-value{
+  font-size: 80px;
+  font-weight: bold;
+}
+.temp-unit{
+  font-size: 28px;
+}
